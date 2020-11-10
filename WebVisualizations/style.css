@@ -1,0 +1,86 @@
+/* Design navbar brand */
+.navbar-brand{
+  margin-left: 40px;
+  padding: 5px;
+  height: 40px;
+  background-color: rgb(129, 216, 208);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* include the logo next to it */
+.logo{
+  margin-left: 0;
+  padding: 5px;
+  height: 35px;
+  width: 35px;
+  background-color: rgb(129, 216, 208);
+}
+  
+/* Positioning the navbar */
+.navbar {
+  background-color: #FFFFFF;
+  margin-top: 0px;
+  position: fixed;
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+  z-index: 1;
+}
+ 
+/* summary box */
+.col-md-12 { 
+  background-color: #FFFFFF;
+  margin-top: 80px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+h2{
+  color: rgb(129, 216, 208);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+/* visualisation box */
+.visualizations {
+  background-color: #FFFFFF;
+  margin-top: 80px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+h3{
+  color: rgb(129, 216, 208);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 20px;
+  font-weight: 700;
+  font-size: 20px;
+}
+
+/* Body background */
+body{
+  background-color: rgb(231, 228, 228);
+}
+
+/*footer styling*/
+.footer {
+  background-color: rgb(129, 216, 208);
+  margin-top: 20px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+}
+
+/* Adjust to small screen */
+@media (max-width: 600px) {
+  .navbar {
+    background-color: rgb(129, 216, 208);
+    padding: inherit;
+  }
+
+}
